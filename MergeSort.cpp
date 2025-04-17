@@ -40,7 +40,10 @@ void mergesort (int low, int high) {
     mergesort(low,mid); //Step 3.a
     mergesort(mid + 1,high); ///step 3.b
 
-    
+    //step 4
+    int i = low;
+    int j = mid + 1; //step 4.a
+    int k = low; //step 4.b
 }
 
 void output() {
